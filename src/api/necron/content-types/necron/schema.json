@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "necrons",
+  "info": {
+    "singularName": "necron",
+    "pluralName": "necrons",
+    "displayName": "Troupe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    }
+  }
+}
